@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.nav-brand {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+ul {
+    display: flex;
+}
+
+ul a {
+    color: white;
+    margin-left: 5rem;
+    font-size: .8rem;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease;
+    padding: 5px;
+}
+
+ul a:hover {
+    background-color: #bbffc7;
+    border-radius: 5px;
+    padding: 5px;
+    color: #133917;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.6deg, #4d9559 0%, #38703d 28.5%, #133917 52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding: 0 18%;
+}
+
+img {
+    width: 500px;
+ position: absolute;
+ top: 100px;
+}
+
+.hero-text h2 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.hero-text h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    margin: 0 0 45px;
+    line-height: 1;
+}
+
+.hero-text h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    color: white;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.hero-text a {
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    line-height: 1.4;
+    font-size: 12px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    margin-bottom: 10px;
+}
+
+.hero-text a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(4px);
+}
+
+.ctaa {
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
